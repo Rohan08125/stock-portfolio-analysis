@@ -48,7 +48,7 @@ where
 
 Sharpe Ratio:
 
-Sharpe = (Rp - Rf) / σ
+Sharpe = (Rp - Rf) / σp
 
 where  
 Rf = risk-free rate
