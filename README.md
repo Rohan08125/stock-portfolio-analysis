@@ -8,11 +8,11 @@ to identify the portfolio with the optimal risk-return tradeoff.
 
 - Download stock data using yfinance
 - Calculate daily returns
-- Plot stock price trends
-- Compute correlation matrix
-- Simulate random portfolios
-- Find optimal portfolio using Sharpe Ratio
-- Visualize Efficient Frontier
+- Analyze correlation between assets
+- Simulate portfolios using Monte Carlo simulation
+- Identify optimal portfolio using Sharpe Ratio
+- Visualize the Efficient Frontier
+- Calculate Value at Risk (VaR) for risk analysis
 
 ## Technologies Used
 
