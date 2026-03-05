@@ -1,4 +1,4 @@
-# SPortfolio Optimization using Modern Portfolio Theory
+# Portfolio Optimization using Modern Portfolio Theory
 
 This project performs stock portfolio analysis using historical market data. 
 It simulates thousands of portfolios and visualizes the Efficient Frontier 
