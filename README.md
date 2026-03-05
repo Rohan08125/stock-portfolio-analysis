@@ -63,19 +63,7 @@ Rf = risk-free rate
 
 ## Efficient Frontier Visualization
 
-![Efficient Frontier](images/efficient_frontier.png)
+![Efficient Frontier](Stock_market_project/images/efficient_frontier.png)
 ## Project Structure
 
-Stock_market_project
-│
-├── images
-│   └── efficient_frontier.png
-│
-├── notebook
-│   └── stock_analysis.ipynb
-│
-├── requirements.txt
-└── README.md
-## Run the Notebook
 
-jupyter notebook notebook/stock_analysis.ipynb
