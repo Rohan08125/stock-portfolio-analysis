@@ -1,6 +1,7 @@
 # Stock Portfolio Analysis
 
-This project analyzes stock market data and builds optimal portfolios using Modern Portfolio Theory.
+This project analyzes historical stock market data and constructs optimal portfolios using Modern Portfolio Theory.  
+It simulates thousands of portfolios and visualizes the Efficient Frontier to identify the portfolio with the maximum Sharpe Ratio.
 
 ## Features
 
