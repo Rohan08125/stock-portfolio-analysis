@@ -1,4 +1,4 @@
-# Stock Portfolio Analysis
+# SPortfolio Optimization using Modern Portfolio Theory
 
 This project performs stock portfolio analysis using historical market data. 
 It simulates thousands of portfolios and visualizes the Efficient Frontier 
@@ -61,9 +61,6 @@ Sharpe = (Rp - Rf) / σp
 where  
 Rf = risk-free rate
 
-## Efficient Frontier Visualization
-
-![Efficient Frontier](Stock_market_project/images/efficient_frontier.png)
 
 
 
