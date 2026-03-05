@@ -64,6 +64,6 @@ Rf = risk-free rate
 ## Efficient Frontier Visualization
 
 ![Efficient Frontier](Stock_market_project/images/efficient_frontier.png)
-## Project Structure
+
 
 
