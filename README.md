@@ -28,3 +28,8 @@ Portfolio Volatility
 Sharpe Ratio  
 Efficient Frontier  
 Correlation Analysis
+
+## Efficient Frontier Visualization
+
+![Efficient Frontier](Stock_market_project/images/efficient_frontier.png)
+
