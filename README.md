@@ -1,18 +1,21 @@
-# Portfolio Optimization using Modern Portfolio Theory
+# Modern Portfolio Optimization & Risk Analysis
 
-This project performs stock portfolio analysis using historical market data. 
-It simulates thousands of portfolios and visualizes the Efficient Frontier 
-to identify the portfolio with the optimal risk-return tradeoff.
+This project analyzes and optimizes a multi-asset portfolio using historical market data and Monte Carlo simulation. It combines Modern Portfolio Theory with quantitative risk measures to identify an optimal risk-return portfolio and evaluate its downside risk.
 
 ## Features
 
-- Download stock data using yfinance
-- Calculate daily returns
-- Analyze correlation between assets
-- Simulate portfolios using Monte Carlo simulation
-- Identify optimal portfolio using Sharpe Ratio
-- Visualize the Efficient Frontier
-- Calculate Value at Risk (VaR) for risk analysis
+- Download historical market data using yfinance
+- Calculate daily asset returns
+- Analyze asset correlations
+- Calculate annualized covariance matrix
+- Simulate 1,000 random portfolios using Monte Carlo simulation
+- Optimize portfolio selection using Sharpe Ratio
+- Visualize portfolio risk-return distribution
+- Analyze optimal portfolio allocation
+- Calculate 95% Historical Value at Risk (VaR)
+- Calculate 95% Expected Shortfall (CVaR)
+- Calculate maximum portfolio drawdown
+- Visualize portfolio growth and drawdown
 
 ## Technologies Used
 
@@ -22,45 +25,90 @@ to identify the portfolio with the optimal risk-return tradeoff.
 - Matplotlib
 - Seaborn
 - yfinance
+- Jupyter Notebook
 
-## Concepts Used
+## Assets Analyzed
 
+- AAPL
+- MSFT
+- GOOGL
+- TSLA
+- SPY
+- GLD
+- TLT
+
+## Quantitative Finance Concepts
+
+- Modern Portfolio Theory
 - Portfolio Return
-- Portfolio Volatility (Risk)
-- Sharpe Ratio (Risk-adjusted return)
-- Efficient Frontier
+- Portfolio Volatility
+- Covariance Matrix
 - Correlation Analysis
+- Sharpe Ratio
+- Monte Carlo Simulation
+- Risk-Return Analysis
+- Value at Risk (VaR)
+- Expected Shortfall (CVaR)
+- Maximum Drawdown
+- Portfolio Diversification
 
-## Mathematical Background
+## Methodology
 
-Portfolio Return
+### Portfolio Return
 
-```
-Rp = wᵀ r
-```
-
-where  
-w = vector of portfolio weights  
-r = vector of asset returns  
-
-Portfolio Variance
-
-```
-σ² = wᵀ Σ w
+```text
+Rp = wᵀr
 ```
 
-where  
-Σ = covariance matrix of asset returns  
+where:
 
-Sharpe Ratio
+- `w` = vector of portfolio weights
+- `r` = vector of asset returns
 
+### Portfolio Variance
+
+```text
+σ²p = wᵀΣw
 ```
+
+where:
+
+- `Σ` = covariance matrix of asset returns
+
+### Sharpe Ratio
+
+```text
 Sharpe = (Rp - Rf) / σp
 ```
 
-where  
-Rf = risk-free rate
+where:
 
+- `Rp` = portfolio return
+- `Rf` = risk-free rate
+- `σp` = portfolio volatility
 
+## Results
 
+The Monte Carlo simulation identified an optimal portfolio with:
 
+- **Annualized Return:** 37.94%
+- **Annualized Volatility:** 28.13%
+- **Sharpe Ratio:** 1.21
+- **95% Historical VaR:** 2.73%
+- **95% Expected Shortfall:** 4.09%
+- **Maximum Drawdown:** 37.43%
+
+## Project Structure
+
+```text
+Stock_market_project/
+│
+├── notebook/
+│   └── stock_analysis.ipynb
+│
+└── requirements.txt
+```
+
+## Disclaimer
+
+This project is for educational and research purposes only and does not constitute financial advice or an investment recommendation.
